@@ -1,0 +1,4 @@
+for i in {0..255}
+do 
+   ssh -o ConnectTimeout=1 username@162.105.145.$i
+done
